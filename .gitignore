@@ -6,6 +6,8 @@ af_dps/
 00_QLoRa_fine_tune/lora_model
 00_QLoRa_fine_tune/results
 00_QLoRa_fine_tune/wandb
+00_QLoRa_fine_tune/etc
+
 
 
 #file
