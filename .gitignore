@@ -3,11 +3,12 @@ dps/
 korean_data/
 af_dps/
 00_QLoRa_fine_tune/example
-00_QLoRa_fine_tune/lora_model
+00_QLoRa_fine_tune/lora_merged_model
 00_QLoRa_fine_tune/results
 00_QLoRa_fine_tune/wandb
 00_QLoRa_fine_tune/etc
 00_QLoRa_fine_tune/checkpoint
+00_QLoRa_fine_tune/outputs
 
 
 
