@@ -15,3 +15,10 @@
 
 1. 처음 시도한 몇몇의 훈련에서 eos_token을 생성해내지 못하고, 같은 말을 반복하는 문제 발생
    해결: 올바른 훈련코드와 데이터, 그리고 pad 토큰을 추가하고 모델의 임베딩 레이어를 리사이즈 한뒤에 훈련 하는 것으로 해결
+
+#### b. 레퍼런스
+
+1. https://github.com/ashishpatel26/LLM-Finetuning/blob/main/7.FineTune_LLAMA2_with_QLORA.ipynb
+2. https://huggingface.co/blog/4bit-transformers-bitsandbytes
+3. https://pytorch.org/blog/finetune-llms/
+4. https://colab.research.google.com/drive/1vIjBtePIZwUaHWfjfNHzBjwuXOyU_ugD?usp=sharing#scrollTo=6k_nL6xJMZW2
