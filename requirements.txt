@@ -13,3 +13,5 @@ pyyaml
 datasets
 psutil
 setuptools
+matplotlib
+seaborn
