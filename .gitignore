@@ -11,6 +11,7 @@ af_dps/
 00_QLoRa_fine_tune/outputs
 01_chat_vector/models
 01_chat_vector/test
+ko-lm-evaluation-harness/
 
 
 #file
