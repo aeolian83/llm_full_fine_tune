@@ -12,6 +12,12 @@ af_dps/
 01_chat_vector/models
 01_chat_vector/test
 ko-lm-evaluation-harness/
+04_paper_practicing/01_translate_machine/korean_data
+04_paper_practicing/01_translate_machine/checkpoint
+04_paper_practicing/01_translate_machine/results
+04_paper_practicing/01_translate_machine/test
+04_paper_practicing/01_translate_machine/wandb
+04_paper_practicing/01_translate_machine/data
 
 
 #file
