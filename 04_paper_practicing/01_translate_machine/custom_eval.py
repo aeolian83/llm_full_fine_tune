@@ -84,9 +84,9 @@ class CustomEvaluate:
     def nmt_generate(self, inputs, tokenizer, model):
         start_time = time.time()
 
-        example_batch = tokenizer(inputs, return_tensors="pt", padding=True).to(
-            model.device
-        )
+        example_batch = tokenizer(
+            inputs, return_tensors="pt", padding=True, truncation=True
+        ).to(model.device)
 
         with torch.cuda.amp.autocast():
             output_tokens = model.generate(**example_batch)
